@@ -1,0 +1,16 @@
+/* GLOBAL */
+:root {
+    box-sizing: border-box; 
+}
+*, 
+::before, 
+::after {
+    box-sizing: inherit; 
+    margin: 0; 
+}
+
+/* CANVAS */
+canvas {
+    width: 100vw; 
+    height: 95vh; 
+}

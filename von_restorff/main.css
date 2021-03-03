@@ -1,0 +1,21 @@
+/* GLOBAL */
+:root {
+    box-sizing: border-box; 
+}
+*, 
+::before, 
+::after {
+    box-sizing: inherit; 
+    margin: 0; 
+}
+
+body {
+    font-size: 8px; 
+    word-wrap: break-word; 
+}
+
+/* CANVAS */
+canvas {
+    width: 100vw; 
+    height: 95vh; 
+}
